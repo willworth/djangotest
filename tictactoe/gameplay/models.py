@@ -3,9 +3,9 @@ from django.contrib.auth.models import User
 
 
 class Game(models.Model):
-    first_player = models.ForeignKey(User,
+    first_player = models.ForeignKey(User, on_delete=models.CASCADE,
                                      related_name="games_first_player")
-    second_player = models.ForeignKey(User,
+    second_player = models.ForeignKey(User, on_delete=models.CASCADE,
                                       related_name="games_second_player")
 
     start_time = models.DateTimeField(auto_now_add=True)
