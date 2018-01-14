@@ -1,4 +1,5 @@
 from django.db import models
+from django.db.models import Q
 from django.contrib.auth.models import User
 
 GAME_STATUS_CHOICES = (
@@ -10,7 +11,16 @@ GAME_STATUS_CHOICES = (
 )
 
 
+class GameQuerySet(models.QuerySet):
+    def games_for_user(self, user):
 
+        return self.filter(
+            Q(first_player=user) | Q(second_player=user)
+        )
+    def active(self):
+        return self.filter(
+            Q(status='F') | Q(status='S')
+        )
 
 
 class Game(models.Model):
@@ -22,6 +32,8 @@ class Game(models.Model):
     start_time = models.DateTimeField(auto_now_add=True)
     last_active = models.DateTimeField(auto_now=True)
     status = models.CharField(max_length=1, default='F', choices=GAME_STATUS_CHOICES)
+
+    objects = GameQuerySet.as_manager()
     #the following is what gives the player names in admin game display
     def __str__(self):
         return "{0} vs {1}".format(
