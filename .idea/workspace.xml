@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b031369-8dd7-476d-bf47-60a3d0f7d025" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/django-env/pip-selfcheck.json" afterPath="$PROJECT_DIR$/django-env/pip-selfcheck.json" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/db.sqlite3" afterPath="$PROJECT_DIR$/tictactoe/db.sqlite3" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/gameplay/admin.py" afterPath="$PROJECT_DIR$/tictactoe/gameplay/admin.py" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/gameplay/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/tictactoe/gameplay/migrations/0001_initial.py" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/gameplay/migrations/0002_game_status.py" afterPath="$PROJECT_DIR$/tictactoe/gameplay/migrations/0002_game_status.py" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/gameplay/models.py" afterPath="$PROJECT_DIR$/tictactoe/gameplay/models.py" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/player/admin.py" afterPath="$PROJECT_DIR$/tictactoe/player/admin.py" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/player/apps.py" afterPath="$PROJECT_DIR$/tictactoe/player/apps.py" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/player/models.py" afterPath="$PROJECT_DIR$/tictactoe/player/models.py" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/player/tests.py" afterPath="$PROJECT_DIR$/tictactoe/player/tests.py" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/player/urls.py" afterPath="$PROJECT_DIR$/tictactoe/player/urls.py" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/player/views.py" afterPath="$PROJECT_DIR$/tictactoe/player/views.py" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/templates/base.html" afterPath="$PROJECT_DIR$/tictactoe/templates/base.html" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/templates/player/home.html" afterPath="$PROJECT_DIR$/tictactoe/templates/player/home.html" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/templates/player/login_form.html" afterPath="$PROJECT_DIR$/tictactoe/templates/player/login_form.html" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/templates/tictactoe/welcome.html" afterPath="$PROJECT_DIR$/tictactoe/templates/tictactoe/welcome.html" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/tictactoe/settings.py" afterPath="$PROJECT_DIR$/tictactoe/tictactoe/settings.py" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/tictactoe/views.py" afterPath="$PROJECT_DIR$/tictactoe/tictactoe/views.py" />
+      <change beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tictactoe/gameplay/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1176">
-              <caret line="53" column="59" lean-forward="false" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
+            <state relative-caret-position="648">
+              <caret line="31" column="54" lean-forward="true" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -51,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="57" lean-forward="false" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+            <state relative-caret-position="120">
+              <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -88,6 +70,7 @@
         <option value="$PROJECT_DIR$/tictactoe/templates/player/login_form.html" />
         <option value="$PROJECT_DIR$/tictactoe/gameplay/models.py" />
         <option value="$PROJECT_DIR$/tictactoe/player/models.py" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -202,8 +185,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09747102" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09747102" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -599,18 +583,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
+    <entry file="file://$PROJECT_DIR$/tictactoe/gameplay/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="57" lean-forward="false" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+        <state relative-caret-position="648">
+          <caret line="31" column="54" lean-forward="true" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="78" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tictactoe/gameplay/models.py">
+    <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="53" column="59" lean-forward="false" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
+        <state relative-caret-position="120">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
           <folding />
         </state>
       </provider>
