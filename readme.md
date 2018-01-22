@@ -1,7 +1,8 @@
 #Django test app
 
-This follows the pluralsight django fundamentals tutorial from [Reindert-Jan Ekker]
-(https://app.pluralsight.com/profile/author/reindertjan-ekker). A **great** tutor!
+This follows the pluralsight django fundamentals tutorial from [Reindert-Jan Ekker](https://app.pluralsight.com/profile/author/reindertjan-ekker).
+
+A **great** tutor!
 
 **Don´t forget**:
 The tutorial doesn´t include
